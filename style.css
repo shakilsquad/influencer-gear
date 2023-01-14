@@ -87,8 +87,10 @@ main Banner section
     border: none;
     font-family: 'Poppins', sans-serif;
 }
-.btn::after{
-
+.btn:after{
+    content: " \f356";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
 }
 .image-section{
     Width:440px;
@@ -123,7 +125,7 @@ main Banner section
     height:1660px ;
     width: 100%;
     max-width: 1150px;
-    background-color: #3a3a3a2f;
+    /* background-color: #3a3a3a2f; */
     margin: 0 auto;
     margin-bottom: 100px;
 }
@@ -136,16 +138,61 @@ main Banner section
     margin: 30px auto;
 }
 .Popular-Collection-main-section{
-
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 30px;
+    row-gap: 30px;
 }
-.div-item{
-    height: 275px;
+.div-item {
+    height: 475px;
     width: 330px;
-    background-color: antiquewhite;
+    padding: 17px 0px 0px 25px;
+    background-color: #FFFFFF;
+    box-shadow: 6px -2px 51px -28px;
 }
 .div-item-img{
     height:255px ;
     width: 300px;
+    border-radius: 5px;
+}
+.div-item-title{
+    margin-top: 16px;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.div-item-price{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000DE;
+    margin-top: 6px;
+    font-family: 'Poppins', sans-serif;
+}
+.div-item-div{
+    margin-top: 5px;
+}
+span{
+    margin-left: 8px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+
+}
+.div-item-detiels{
+    margin-top: 17px;
+    font-family: Inter;
+    font-size: 14px;
+    color: #787885;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.018em;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+
 }
 /* ----------------
 main Banner section
