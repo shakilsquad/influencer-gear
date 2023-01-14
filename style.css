@@ -4,14 +4,13 @@
 }
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 .fixt-width{
     max-width: 1250px;
     width: 100%;
 }
-body{
-    /* background-color: #AAAAAA; */
-}
+
 
 
 
@@ -176,11 +175,16 @@ span{
     margin-left: 8px;
     font-family: Roboto;
     font-size: 16px;
+    color: #5E6366;
     font-weight: 700;
     line-height: 22px;
     letter-spacing: 0.10000000149011612px;
     text-align: left;
+    font-family: 'Roboto', sans-serif;
 
+}
+.icon-color{
+    color: #FB8200;
 }
 .div-item-detiels{
     margin-top: 17px;
