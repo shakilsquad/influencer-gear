@@ -79,6 +79,8 @@ main Banner section
     margin-bottom: 16px;
 }
 .btn {
+    font-size: 16px;
+    font-weight: 800;
     color: #FFFFFF;
     background-color: #E02C6D;
     padding: 10px 24px 10px 24px;
@@ -86,11 +88,11 @@ main Banner section
     border: none;
     font-family: 'Poppins', sans-serif;
 }
-.btn:after{
+/* .btn:after{
     content: " \f356";
     font-family: "Font Awesome 5 Free";
     font-weight: 800;
-}
+} */
 .image-section{
     Width:440px;
     Height:414px;
@@ -106,6 +108,7 @@ main Banner section
 .icone-section{  
     max-width: 1110px;
     width: 100%;
+    margin: 0 auto;
     height: 110px;  
     margin-bottom: 100px; 
 }
@@ -114,9 +117,9 @@ main Banner section
     width: 100%;
     margin: 100px auto;
     display: flex;
+    margin-left: -60px;
     align-items: center;
     justify-content: space-between;
-    border: 0.5px solid #3A3A3A;
     padding: 36px 60px;
 }
 /* ==================================Popular Collection==================== */
@@ -198,7 +201,64 @@ span{
     font-family: 'Poppins', sans-serif;
 
 }
+.last-title {
+    text-align: end;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #E02C6DDE;
+    font-family: 'Poppins', sans-serif;
+}
 /* ----------------
 main Banner section
 ---------------------- */
+.Featured-products{
+    max-width: 1110px;
+    height: 270px;
+    width: 100%;
+    margin-top: 100px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.products{
+    display: flex;
+    gap: 90px;
+}
+.img-section{
+
+}
+.text-sectiom{
+    height: 225px;
+    max-width: 610px;
+    width: 100%;
+    margin-top: 30px;
+}
+.text-sectiom-title{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0A0826;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 16px;
+}
+.paragrap-title{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin-bottom: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.last-btn{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E02C6D;
+    border: none;
+    padding: 10px 24px 10px 24px;
+
+}
 
