@@ -10,7 +10,11 @@
     max-width: 1250px;
     width: 100%;
 }
-
+.pain{
+    margin-left: 7px;
+    font-size: 19px;
+}
+/* ============================================= */
 
 
 
@@ -96,7 +100,7 @@ main Banner section
 .image-section{
     Width:440px;
     Height:414px;
-    background-color: aqua;
+    /* background-color: aqua; */
     padding: 10px;
 }
 .main-image{
@@ -261,4 +265,44 @@ main Banner section
     padding: 10px 24px 10px 24px;
 
 }
+/* ==============footer============= */
+.main-footer{
+    background-color: #0A0826;
+    height: 239px;
+    width: 1519px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.footer-contain{
+        height: 140px;
+        max-width: 260px;
+        width: 100%;
+        color:#FFFFFF ;
+        text-align: center;
+}
+.footer-title{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+
+}
+.footer-descripton{
+    font-size: 14px;
+    font-weight:700 ;
+    font-family: 'Poppins', sans-serif;
+    line-height: 36px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 17px;
+}
+.style-icon {
+    color:#FFFFFF;
+    border-radius: 50%;
+    background-color: #22213c;
+    padding: 12px;
+}
