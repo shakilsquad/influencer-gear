@@ -1,0 +1,86 @@
+ @media screen and (max-width:767px){
+    .header-manu{
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .fixt-width {        
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 50px;
+    }
+    .title-section{
+        width: 360px;
+        text-align: center;
+    }
+    .image-section {
+        Width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        Height: 414px;
+        padding: 10px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-image{
+        width:240px ;
+        height:214px;
+    }
+    /* ===========================icon section============ */
+    .icone-section{  
+        max-width: 275px;
+    }
+    .icone-section-home {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 20px;
+        row-gap: 30px;
+        margin-left: -95px;
+        margin-bottom: 50px;
+    }
+    /* ==============================popular collection======= */
+    .Popular-Collection{
+        margin-top: 30px;
+    }
+    .Popular-Collection-main-section{
+        display: block;
+        /* margin: auto!important; */
+        margin: 18px;
+    }
+    .div-item {
+        /* height: 475px; */
+        width: 330px;
+        padding: 17px 0px 0px 25px;
+        background-color: #FFFFFF;
+        box-shadow: 6px -2px 51px -28px;
+    }
+    .products{
+        display: block;
+
+        gap: 90px;
+    }
+    .main-menu{
+        display: none;
+        align-items: center;
+        gap: 34px;
+        
+    }
+    /* Featured products at one place */
+    .section{
+        flex-direction: column;
+        margin-top: 2950px;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .title-section-div{
+        
+        text-align: center;
+        padding: 10px 20px;
+    }
+    .img-section-div img{
+        width: 80%;
+        margin: 0px 44px;
+    }
+} 
